@@ -12,12 +12,12 @@ interface GoogleMapProps {
  * `src` with your own Maps Embed API URL.
  */
 export default function GoogleMap({ className = '', height = '420px' }: GoogleMapProps) {
-  const query = encodeURIComponent("Royal Palace Antsirabe, RN7 Route d'Ambositra, Antsirabe, Madagascar")
+  const query = encodeURIComponent("La Colongette Antsirabe, RN7 Route d'Ambositra, Antsirabe, Madagascar")
 
   return (
     <div className={className} style={{ height }}>
       <iframe
-        title="Royal Palace Antsirabe — Localisation"
+        title="La Colongette Antsirabe — Localisation"
         src={`https://maps.google.com/maps?q=${query}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
         width="100%"
         height="100%"

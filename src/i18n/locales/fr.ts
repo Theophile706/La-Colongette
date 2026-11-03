@@ -33,15 +33,15 @@ const fr = {
     home: 'Accueil',
   },
   hero: {
-    title: 'ROYAL PALACE',
+    title: 'LA COLONGETTE',
     subtitle: 'ANTSIRABE',
     tagline: "Une adresse de charme au cœur d'Antsirabe",
   },
   home: {
-    introEyebrow: 'Bienvenue au Royal Palace',
+    introEyebrow: 'Bienvenue à La Colongette',
     introTitle: "Un havre de sérénité et de raffinement au cœur du Vakinankaratra",
     introText:
-      "Implanté au cœur de la ville d'Antsirabe, le long de la RN7 qui mène vers le Sud de Madagascar, le Royal Palace vous invite à découvrir son cadre exceptionnel et élégant, et vous offre le meilleur service pour rendre votre séjour inoubliable. La proximité de la ville, le restaurant où le plaisir culinaire se démarque, le magnifique jardin et sa piscine font du Royal Palace une destination de premier choix à Antsirabe.",
+      "Implanté au cœur de la ville d'Antsirabe, le long de la RN7 qui mène vers le Sud de Madagascar, La Colongette vous invite à découvrir son cadre exceptionnel et élégant, et vous offre le meilleur service pour rendre votre séjour inoubliable. La proximité de la ville, le restaurant où le plaisir culinaire se démarque, le magnifique jardin et sa piscine font de La Colongette une destination de premier choix à Antsirabe.",
     servicesEyebrow: 'Nos services',
     servicesTitle: 'Une expérience 5 étoiles à chaque instant',
     service1Title: 'Chambres & Suites',
@@ -53,7 +53,7 @@ const fr = {
     service4Title: 'Réunions & Événements',
     service4Text: 'Des espaces élégants pour séminaires, mariages et réceptions.',
     highlightsEyebrow: 'Pourquoi nous choisir',
-    highlightsTitle: 'Le Royal Palace en quelques mots',
+    highlightsTitle: 'La Colongette en quelques mots',
     highlight1: 'Depuis 2012 à Antsirabe',
     highlight1Text: "Une adresse reconnue au cœur du Vakinankaratra, sur la RN7.",
     highlight2: 'Jardin & Piscine',
@@ -69,11 +69,11 @@ const fr = {
     offer3Title: 'Séjour Prolongé',
     offer3Text: '4 nuits ou plus : -15% sur le tarif de la chambre.',
     galleryEyebrow: 'Galerie photo',
-    galleryTitle: "L'univers du Royal Palace",
+    galleryTitle: "L'univers de La Colongette",
     sisterEyebrow: 'Nos autres établissements',
     sisterTitle: 'Découvrez nos adresses sœurs à Madagascar',
     sisterText: 'Laissez-vous séduire par nos autres établissements, tous marqués par la même qualité de service et un charme singulier.',
-    sister1Name: 'Hôtel La Colongette',
+    sister1Name: 'Royal Palace',
     sister1Location: 'Antsirabe',
     sister1Text: "Un lieu unique, empreint d'histoire et d'authenticité.",
     sister2Name: 'Hôtel Marina Beach',
@@ -83,14 +83,14 @@ const fr = {
     sister3Location: 'Morondava',
     sister3Text: 'Hôtel 3 étoiles au bord de la mer, pour des vacances au cadre magnifique.',
     ctaTitle: 'Prêt à vivre une expérience royale ?',
-    ctaText: "Réservez dès maintenant votre séjour au Royal Palace Antsirabe.",
+    ctaText: "Réservez dès maintenant votre séjour à La Colongette.",
   },
   rooms: {
     heroTitle: 'Chambres & Suites',
     heroSubtitle: 'Offrez-vous une expérience unique, où chaque détail est pensé pour votre bien-être',
     introTitle: 'Un cocon de confort et de raffinement',
     introText:
-      "Chambres spacieuses, service d'exception et atmosphère prestigieuse font de votre séjour au Royal Palace un véritable moment d'exception. Chaque chambre a été conçue pour allier confort moderne et élégance intemporelle.",
+      "Chambres spacieuses, service d'exception et atmosphère prestigieuse font de votre séjour à La Colongette un véritable moment d'exception. Chaque chambre a été conçue pour allier confort moderne et élégance intemporelle.",
     amenitiesTitle: 'Équipements inclus',
     amenities: [
       'Climatisation individuelle',
@@ -137,7 +137,7 @@ const fr = {
     suite: {
       name: 'Suite Royale',
       description:
-        'Suite avec salon séparé, salle de bain avec baignoire, et service de conciergerie dédié. Le summum du luxe au Royal Palace.',
+        'Suite avec salon séparé, salle de bain avec baignoire, et service de conciergerie dédié. Le summum du luxe à La Colongette.',
       view: 'Vue panoramique',
       bedType: 'Lit king size + canapé-lit',
     },
@@ -205,7 +205,7 @@ const fr = {
     heroSubtitle: 'Des espaces élégants pour vos moments les plus importants',
     introTitle: 'Le cadre idéal pour vos événements',
     introText:
-      "Séminaires professionnels, conférences, mariages ou réceptions privées : le Royal Palace met à votre disposition des espaces modulables et un service impeccable pour la réussite de votre événement.",
+      "Séminaires professionnels, conférences, mariages ou réceptions privées : La Colongette met à votre disposition des espaces modulables et un service impeccable pour la réussite de votre événement.",
     roomsTitle: 'Nos salles',
     capacityTitle: 'Capacités',
     room1Name: 'Salon Royal',
@@ -249,7 +249,7 @@ const fr = {
     attraction4: 'Cathédrale d\'Antsirabe',
     transportTitle: 'Transport & Accès',
     transportText:
-      "Antsirabe se situe à environ 170 km au sud d'Antananarivo (environ 3h30 de route par la RN7). Le Royal Palace peut organiser vos transferts depuis l'aéroport d'Ivato ou toute autre destination.",
+      "Antsirabe se situe à environ 170 km au sud d'Antananarivo (environ 3h30 de route par la RN7). La Colongette peut organiser vos transferts depuis l'aéroport d'Ivato ou toute autre destination.",
   },
   contact: {
     heroTitle: 'Nous contacter',
@@ -279,10 +279,11 @@ const fr = {
     socialTitle: 'Suivez-nous',
   },
   footer: {
-    aboutTitle: 'Royal Palace Antsirabe',
+    aboutTitle: 'La Colongette Antsirabe',
     aboutText: "Une adresse de charme et de raffinement au cœur du Vakinankaratra, Madagascar.",
     linksTitle: 'Liens rapides',
     contactTitle: 'Contact',
+    contactComingSoon: 'Informations disponibles très bientôt.',
     newsletterTitle: 'Newsletter',
     newsletterText: 'Recevez nos offres exclusives et actualités.',
     newsletterPlaceholder: 'Votre adresse e-mail',

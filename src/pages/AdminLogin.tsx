@@ -29,7 +29,7 @@ export default function AdminLogin() {
     <main className="min-h-screen bg-cream flex items-center justify-center px-5 py-12">
       <form onSubmit={submit} className="w-full max-w-md bg-white border border-gray-200 shadow-card p-8 space-y-5">
         <div>
-          <p className="text-xs uppercase tracking-widest2 text-gold-600 mb-2">Royal Palace Antsirabe</p>
+          <p className="text-xs uppercase tracking-widest2 text-gold-600 mb-2">La Colongette Antsirabe</p>
           <h1 className="font-serif text-3xl text-charcoal">Administration</h1>
         </div>
         <label className="block text-sm text-gray-700">

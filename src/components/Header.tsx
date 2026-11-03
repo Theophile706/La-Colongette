@@ -48,7 +48,7 @@ export default function Header() {
         <Link to="/" className="flex items-center shrink-0">
           <img
             src={transparent ? '/images/logo.png' : '/images/logo-dark.png'}
-            alt="Royal Palace Antsirabe"
+            alt="La Colongette Antsirabe"
             className="h-14 md:h-20 w-auto object-contain transition-opacity duration-300"
           />
         </Link>

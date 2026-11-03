@@ -98,7 +98,7 @@ export default function Spa() {
         <div className="container-luxe grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1 grid grid-cols-2 gap-4">
             <img src="/images/Photo-Gallerie-3-1200.jpg" alt="Spa" className="rounded-md aspect-square object-cover" loading="lazy" />
-            <img src="/images/Photo-Gallerie-4-1200.jpg" alt="Ambiance spa" className="rounded-md aspect-square object-cover mt-8" loading="lazy" />
+            <img src="/images/Photo.jpg" alt="Ambiance spa" className="rounded-md aspect-square object-cover mt-8" loading="lazy" />
           </div>
           <div className="order-1 lg:order-2">
             <div className="section-eyebrow">{t('spa.spaEyebrow')}</div>

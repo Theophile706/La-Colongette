@@ -21,7 +21,7 @@ const highlights = [
 ]
 
 const sisterHotels = [
-  { key: 'sister1', image: '/images/IMG_9572-rbkcrv4mn25priauzktibsxmk9ru0ddx2t7q6qyrvw.webp' },
+  { key: 'sister1', image: '/images/3.jpg' },
   { key: 'sister2', image: '/images/WhatsApp%20Image%202026-11-02%20at%2011.45.41.jpeg' },
   { key: 'sister3', image: '/images/images.jpg' },
 ]

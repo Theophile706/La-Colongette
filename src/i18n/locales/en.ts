@@ -33,15 +33,15 @@ const en = {
     home: 'Home',
   },
   hero: {
-    title: 'ROYAL PALACE',
+    title: 'LA COLONGETTE',
     subtitle: 'ANTSIRABE',
     tagline: 'A charming address in the heart of Antsirabe',
   },
   home: {
-    introEyebrow: 'Welcome to Royal Palace',
+    introEyebrow: 'Welcome to La Colongette',
     introTitle: 'A haven of serenity and refinement in the heart of Vakinankaratra',
     introText:
-      "Located in the heart of Antsirabe, along the RN7 leading to southern Madagascar, the Royal Palace invites you to discover its exceptional and elegant setting, offering the best service to make your stay unforgettable. Its proximity to the city, an outstanding restaurant, a magnificent garden and swimming pool make Royal Palace a destination of choice in Antsirabe.",
+      "Located in the heart of Antsirabe, along the RN7 leading to southern Madagascar, La Colongette invites you to discover its exceptional and elegant setting, offering the best service to make your stay unforgettable. Its proximity to the city, an outstanding restaurant, a magnificent garden and swimming pool make La Colongette a destination of choice in Antsirabe.",
     servicesEyebrow: 'Our Services',
     servicesTitle: 'A 5-star experience at every moment',
     service1Title: 'Rooms & Suites',
@@ -53,7 +53,7 @@ const en = {
     service4Title: 'Meetings & Events',
     service4Text: 'Elegant spaces for seminars, weddings and receptions.',
     highlightsEyebrow: 'Why Choose Us',
-    highlightsTitle: 'Royal Palace in a few words',
+    highlightsTitle: 'La Colongette in a few words',
     highlight1: 'Since 2012 in Antsirabe',
     highlight1Text: 'A well-known address in the heart of Vakinankaratra, on the RN7.',
     highlight2: 'Garden & Pool',
@@ -69,11 +69,11 @@ const en = {
     offer3Title: 'Extended Stay',
     offer3Text: '4 nights or more: -15% on room rate.',
     galleryEyebrow: 'Photo Gallery',
-    galleryTitle: 'The World of Royal Palace',
+    galleryTitle: 'The World of La Colongette',
     sisterEyebrow: 'Our Other Properties',
     sisterTitle: 'Discover our sister properties in Madagascar',
     sisterText: 'Be seduced by our other establishments, all marked by the same quality of service and unique charm.',
-    sister1Name: 'Hôtel La Colongette',
+    sister1Name: 'Royal Palace',
     sister1Location: 'Antsirabe',
     sister1Text: 'A unique place, steeped in history and authenticity.',
     sister2Name: 'Hôtel Marina Beach',
@@ -83,14 +83,14 @@ const en = {
     sister3Location: 'Morondava',
     sister3Text: 'A 3-star seaside hotel for a holiday in a magnificent setting.',
     ctaTitle: 'Ready for a royal experience?',
-    ctaText: 'Book your stay at Royal Palace Antsirabe now.',
+    ctaText: 'Book your stay at La Colongette Antsirabe now.',
   },
   rooms: {
     heroTitle: 'Rooms & Suites',
     heroSubtitle: 'Enjoy a unique experience where every detail is designed for your wellbeing',
     introTitle: 'A cocoon of comfort and refinement',
     introText:
-      "Spacious rooms, exceptional service and a prestigious atmosphere make your stay at Royal Palace a truly exceptional moment. Each room has been designed to combine modern comfort with timeless elegance.",
+      "Spacious rooms, exceptional service and a prestigious atmosphere make your stay at La Colongette a truly exceptional moment. Each room has been designed to combine modern comfort with timeless elegance.",
     amenitiesTitle: 'Included Amenities',
     amenities: [
       'Individual air conditioning',
@@ -137,7 +137,7 @@ const en = {
     suite: {
       name: 'Royal Suite',
       description:
-        'Suite with separate living room, bathroom with bathtub, and dedicated concierge service. The pinnacle of luxury at Royal Palace.',
+        'Suite with separate living room, bathroom with bathtub, and dedicated concierge service. The pinnacle of luxury at La Colongette.',
       view: 'Panoramic view',
       bedType: 'King-size bed + sofa bed',
     },
@@ -205,7 +205,7 @@ const en = {
     heroSubtitle: 'Elegant spaces for your most important moments',
     introTitle: 'The ideal setting for your events',
     introText:
-      'Professional seminars, conferences, weddings or private receptions: Royal Palace offers modular spaces and impeccable service for the success of your event.',
+      'Professional seminars, conferences, weddings or private receptions: La Colongette offers modular spaces and impeccable service for the success of your event.',
     roomsTitle: 'Our Rooms',
     capacityTitle: 'Capacities',
     room1Name: 'Royal Lounge',
@@ -249,7 +249,7 @@ const en = {
     attraction4: 'Antsirabe Cathedral',
     transportTitle: 'Transport & Access',
     transportText:
-      "Antsirabe is located about 170 km south of Antananarivo (approximately 3h30 by road via the RN7). Royal Palace can arrange your transfers from Ivato Airport or any other destination.",
+      "Antsirabe is located about 170 km south of Antananarivo (approximately 3h30 by road via the RN7). La Colongette can arrange your transfers from Ivato Airport or any other destination.",
   },
   contact: {
     heroTitle: 'Contact Us',
@@ -279,10 +279,11 @@ const en = {
     socialTitle: 'Follow Us',
   },
   footer: {
-    aboutTitle: 'Royal Palace Antsirabe',
+    aboutTitle: 'La Colongette Antsirabe',
     aboutText: 'A charming and refined address in the heart of Vakinankaratra, Madagascar.',
     linksTitle: 'Quick Links',
     contactTitle: 'Contact',
+    contactComingSoon: 'Information available soon.',
     newsletterTitle: 'Newsletter',
     newsletterText: 'Receive our exclusive offers and news.',
     newsletterPlaceholder: 'Your email address',

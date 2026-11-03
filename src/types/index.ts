@@ -1,5 +1,5 @@
 // ============================================================
-// Global TypeScript type definitions for Royal Palace Antsirabe
+// Global TypeScript type definitions for La Colongette Antsirabe
 // ============================================================
 
 export interface Room {

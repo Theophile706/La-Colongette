@@ -99,7 +99,7 @@ export default function Events() {
     try {
       const result = await api.sendEventInquiry(form)
       if (result.error) {
-        console.error('[Royal Palace] Event inquiry failed:', result.error)
+        console.error('[La Colongette] Event inquiry failed:', result.error)
         setSubmitError(
           typeof result.error === 'string' && result.error !== 'Network error'
             ? `L'envoi a échoué : ${result.error}`
@@ -110,7 +110,7 @@ export default function Events() {
         setStatus('success')
       }
     } catch (err) {
-      console.error('[Royal Palace] Event inquiry exception:', err)
+      console.error('[La Colongette] Event inquiry exception:', err)
       setSubmitError('Impossible de contacter le serveur. Veuillez réessayer plus tard.')
       setStatus('idle')
     }
@@ -127,7 +127,7 @@ export default function Events() {
         <SectionHeading title={t('events.introTitle')} text={t('events.introText')} />
       </AnimatedSection>
 
-      {/* Rooms with capacity */}
+      {/*
       <section className="bg-cream py-20 md:py-24">
         <div className="container-luxe">
           <SectionHeading title={t('events.roomsTitle')} />
@@ -153,6 +153,7 @@ export default function Events() {
           </div>
         </div>
       </section>
+      */}
 
       {/* Equipment */}
       <AnimatedSection className="container-luxe py-20 md:py-24">

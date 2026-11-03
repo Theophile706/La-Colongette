@@ -74,7 +74,7 @@ export default function Restaurant() {
       <section className="bg-cream py-20 md:py-24">
         <div className="container-luxe grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
-            { titleKey: 'warmTableTitle', textKey: 'warmTableText', img: '/images/restaurant/terrace-real.jpg' },
+            { titleKey: 'warmTableTitle', textKey: 'warmTableText', img: '/images/Photo-restaurant-1.jpg' },
             { titleKey: 'dishesTitle', textKey: 'dishesText', img: '/images/restaurant/dish-real.jpg' },
             { titleKey: 'barTitle', textKey: 'barText', img: '/images/restaurant/cocktails-real.jpg' },
           ].map((item, idx) => (
@@ -125,7 +125,7 @@ export default function Restaurant() {
         </div>
       </AnimatedSection>
 
-      {/* Menu */}
+      {/*
       <section className="bg-cream py-20 md:py-24">
         <div className="container-luxe">
           <SectionHeading title={t('restaurant.menuTitle')} text={t('restaurant.menuText')} />
@@ -163,12 +163,13 @@ export default function Restaurant() {
           </div>
         </div>
       </section>
+      */}
 
       {/* Gallery + CTA */}
       <AnimatedSection className="container-luxe py-20 md:py-24">
         <SectionHeading title={t('restaurant.ctaTitle')} />
         <div className="mt-14">
-          <ImageGallery images={restaurantImages} columns={4} />
+          <ImageGallery images={restaurantImages.slice(0, 4)} columns={4} />
         </div>
       </AnimatedSection>
     </>

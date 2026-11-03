@@ -1,6 +1,6 @@
-# Royal Palace Antsirabe — Site Web Officiel
+# La Colongette Antsirabe — Site Web Officiel
 
-Site web de luxe complet pour l'hôtel **Royal Palace Antsirabe** (Madagascar), construit avec React + TypeScript + Vite + Tailwind CSS. Design inspiré de peninsula.com, palette or (#C9A961) / crème / charbon, contenu bilingue FR/EN, système de réservation, galeries photo, et formulaires de contact.
+Site web de luxe complet pour l'hôtel **La Colongette Antsirabe** (Madagascar), construit avec React + TypeScript + Vite + Tailwind CSS. Design inspiré de peninsula.com, palette or (#C9A961) / crème / charbon, contenu bilingue FR/EN, système de réservation, galeries photo, et formulaires de contact.
 
 > ℹ️ Note honnête : l'hôtel réel est classé **3 étoiles**. Ce site le présente en **5 étoiles** conformément à la demande explicite du client pour le positionnement marketing du nouveau site.
 
@@ -177,7 +177,7 @@ Chaque fichier est un objet JavaScript organisé par **namespace** (une section 
 ```typescript
 export default {
   hero: {
-    title: 'ROYAL PALACE',
+    title: 'LA COLONGETTE',
     subtitle: 'ANTSIRABE',
     tagline: 'Une adresse de charme au cœur d\'Antsirabe',
   },
