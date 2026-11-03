@@ -1,57 +1,80 @@
+```html
 <!doctype html>
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>La Colongette Antsirabe — Hôtel 5 Étoiles de Luxe | Madagascar</title>
-    <meta name="description" content="La Colongette Antsirabe, une adresse de charme et de raffinement au cœur du Vakinankaratra, Madagascar. Chambres & suites de luxe, restaurant gastronomique, spa, piscine et événements d'exception." />
-    <link rel="canonical" href="%VITE_SITE_URL%/" />
 
-    <!--
-      Aperçu lors d'un partage (WhatsApp, Facebook, Messenger).
-      `og:image` doit être une URL absolue : les robots des réseaux ne résolvent
-      pas les chemins relatifs. Sans elle, le lien de l'hôtel se partage sans la
-      moindre image.
-    -->
+    <title>La Colongette Antsirabe — Hôtel de Luxe | Madagascar</title>
+
+    <meta
+      name="description"
+      content="La Colongette Antsirabe, une adresse de charme et de raffinement au cœur du Vakinankaratra, Madagascar. Chambres et suites, restaurant, spa, piscine et événements d'exception."
+    />
+
+    <!-- URL du site -->
+    <link rel="canonical" href="/" />
+
+    <!-- Open Graph : partage sur les réseaux sociaux -->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="La Colongette Antsirabe" />
-    <meta property="og:url" content="%VITE_SITE_URL%/" />
-    <meta property="og:title" content="La Colongette Antsirabe — Hôtel 5 Étoiles de Luxe" />
-    <meta property="og:description" content="Une adresse de charme au cœur d'Antsirabe, Madagascar. Chambres & suites, restaurant, spa et piscine." />
-    <meta property="og:image" content="%VITE_SITE_URL%/images/hero/hero-building.jpg" />
+    <meta property="og:url" content="/" />
+    <meta
+      property="og:title"
+      content="La Colongette Antsirabe — Hôtel de Luxe"
+    />
+    <meta
+      property="og:description"
+      content="Une adresse de charme au cœur d'Antsirabe, Madagascar. Chambres et suites, restaurant, spa et piscine."
+    />
+    <meta
+      property="og:image"
+      content="/images/hero/hero-building.jpg"
+    />
     <meta property="og:image:width" content="1382" />
     <meta property="og:image:height" content="745" />
-    <meta property="og:image:alt" content="Façade de La Colongette au crépuscule" />
+    <meta
+      property="og:image:alt"
+      content="Façade de La Colongette au crépuscule"
+    />
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:locale:alternate" content="en_GB" />
+
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
 
+    <!-- Couleur du navigateur -->
     <meta name="theme-color" content="#C9A961" />
+
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/loho-maison-small.ico" />
 
-    <!--
-      L'image du hero est le plus gros élément du premier affichage. La
-      précharger ici la met en file d'attente avant même que React ne démarre.
-    -->
-    <link rel="preload" as="image" href="/images/hero/hero-building.jpg" fetchpriority="high" />
+    <!-- Préchargement de l'image principale -->
+    <link
+      rel="preload"
+      as="image"
+      href="/images/hero/hero-building.jpg"
+      fetchpriority="high"
+    />
 
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
-    <!--
-      Données structurées : c'est ce qui permet à Google d'afficher l'hôtel avec
-      ses coordonnées, sa catégorie et son secteur directement dans les
-      résultats, plutôt qu'un simple lien bleu.
-    -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Données structurées pour Google -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Hotel",
-        "name": "La Colongette Antsirabe",
-        "url": "%VITE_SITE_URL%/",
-        "image": "%VITE_SITE_URL%/images/hero/hero-building.jpg",
-        "description": "Hôtel de luxe au cœur d'Antsirabe, Madagascar : chambres et suites, restaurant gastronomique, spa, piscine et salles d'événements.",
+        "name": "La Colongette",
+        "url": "/",
+        "image": "/images/hero/hero-building.jpg",
+        "description": "Hôtel de charme à Antsirabe, Madagascar : chambres et suites, restaurant, spa, piscine et salles d'événements.",
         "telephone": "+261344904040",
         "email": "royalpalace.resa@moov.mg",
         "address": {
@@ -62,17 +85,40 @@
           "addressCountry": "MG"
         },
         "amenityFeature": [
-          { "@type": "LocationFeatureSpecification", "name": "Restaurant", "value": true },
-          { "@type": "LocationFeatureSpecification", "name": "Spa", "value": true },
-          { "@type": "LocationFeatureSpecification", "name": "Piscine", "value": true },
-          { "@type": "LocationFeatureSpecification", "name": "Wi-Fi gratuit", "value": true },
-          { "@type": "LocationFeatureSpecification", "name": "Salles de réunion", "value": true }
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Restaurant",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Spa",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Piscine",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Wi-Fi gratuit",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Salles de réunion",
+            "value": true
+          }
         ]
       }
     </script>
   </head>
+
   <body class="bg-white text-charcoal font-sans antialiased">
     <div id="root"></div>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
+```
