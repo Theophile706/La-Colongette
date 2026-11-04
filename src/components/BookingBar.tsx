@@ -156,7 +156,7 @@ export default function BookingBar({ floating = true }: BookingBarProps) {
           <button
             type="button"
             onClick={() => submitSearch()}
-            className="w-full lg:w-auto bg-gold-500 hover:bg-gold-600 active:bg-gold-700 text-white uppercase tracking-widest2 text-[10px] md:text-[11px] font-semibold px-2 md:px-3 py-3.5 rounded-none transition-all duration-200 whitespace-nowrap hover:shadow-lg"
+            className="w-full lg:w-auto bg-gold-500 hover:bg-gold-600 active:bg-gold-700 text-center leading-snug text-white uppercase tracking-widest2 text-[10px] md:text-[11px] font-semibold px-2 md:px-3 py-3.5 rounded-none transition-all duration-200 hover:shadow-lg"
           >
             {t('common.checkAvailability')}
           </button>

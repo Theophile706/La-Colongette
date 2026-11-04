@@ -37,8 +37,8 @@ export default function Home() {
     <>
       <Hero />
 
-      {/* Spacer for floating booking bar overlap */}
-      <div className="h-16 md:h-14" />
+      {/* Breathing room after the inline mobile booking bar and desktop overlap. */}
+      <div className="h-8 md:h-14" />
 
       {/* Introduction */}
       <AnimatedSection className="container-luxe py-20 md:py-28">

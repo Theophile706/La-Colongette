@@ -21,7 +21,8 @@ export default function Hero() {
   return (
     // Hauteur du bloc hero réduite (h-[75vh] au lieu de h-[85vh]) pour remonter
     // la ligne de séparation avec le bloc du bas, sans toucher à son contenu.
-    <section className="relative h-[75vh] min-h-[560px] w-full">
+    <section className="relative w-full">
+      <div className="relative h-[75vh] min-h-[560px] w-full">
       {/* Background image — seul ce conteneur est clipé */}
       <div className="absolute inset-0 overflow-hidden">
         {/*
@@ -78,7 +79,9 @@ export default function Hero() {
           (fondu + léger glissement). Son propre transform ne peut donc plus
           jamais entrer en conflit avec le positionnement.
       */}
-      <div className="absolute bottom-32 left-0 right-0 translate-y-0 md:bottom-0 md:translate-y-[calc(50%-0.2cm)] z-30 px-4 md:px-0">
+      </div>
+
+      <div className="relative z-30 px-4 py-6 md:absolute md:bottom-0 md:left-0 md:right-0 md:translate-y-[calc(50%-0.2cm)] md:px-0 md:py-0">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
