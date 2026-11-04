@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#C9A961" />
+    <title>Hors connexion | La Colongette</title>
+    <style>
+        :root {
+            color-scheme: light;
+            font-family: Georgia, 'Times New Roman', serif;
+            background: #f5f5f0;
+            color: #2c2c2c;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            min-height: 100dvh;
+            margin: 0;
+            display: grid;
+            place-items: center;
+            padding: 24px;
+            text-align: center;
+        }
+
+        main {
+            width: min(100%, 520px);
+            padding: clamp(32px, 8vw, 64px) 24px;
+            border-top: 1px solid #c9a961;
+            border-bottom: 1px solid #c9a961;
+        }
+
+        img {
+            display: block;
+            width: min(100%, 280px);
+            height: auto;
+            margin: 0 auto 32px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: clamp(28px, 8vw, 42px);
+            font-weight: 400;
+        }
+
+        p {
+            margin: 16px 0 28px;
+            color: #666;
+            font: 16px/1.6 Arial, sans-serif;
+        }
+
+        button {
+            min-height: 48px;
+            border: 0;
+            padding: 0 24px;
+            background: #c9a961;
+            color: white;
+            font: 600 13px Arial, sans-serif;
+            letter-spacing: .08em;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+
+        button:focus-visible {
+            outline: 3px solid #2c2c2c;
+            outline-offset: 3px;
+        }
+
+        @media (prefers-reduced-motion: no-preference) {
+            main {
+                animation: arrive .5s ease-out both;
+            }
+
+            @keyframes arrive {
+                from {
+                    opacity: 0;
+                    transform: translateY(10px);
+                }
+
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <img src="/images/logo-dark.png" alt="La Colongette Antsirabe" />
+        <h1>Vous êtes hors connexion</h1>
+        <p>Cette page n’est pas encore disponible hors ligne. Vérifiez votre connexion puis réessayez.</p>
+        <button type="button" onclick="window.location.reload()">Réessayer</button>
+    </main>
+</body>
+
+</html>

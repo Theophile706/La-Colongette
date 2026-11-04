@@ -1,0 +1,29 @@
+{
+    "id": "/",
+    "name": "La Colongette Antsirabe",
+    "short_name": "La Colongette",
+    "description": "Hôtel, restaurant, piscine et bien-être à Antsirabe, Madagascar.",
+    "lang": "fr",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "display_override": [
+        "standalone",
+        "minimal-ui"
+    ],
+    "orientation": "any",
+    "background_color": "#2C2C2C",
+    "theme_color": "#C9A961",
+    "categories": [
+        "travel",
+        "lifestyle"
+    ],
+    "icons": [
+        {
+            "src": "/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ]
+}

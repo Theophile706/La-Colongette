@@ -22,6 +22,7 @@ const en = {
     reserveThisRoom: 'Reserve This Room',
     ourStory: 'Our Story',
     apply: 'Apply',
+    offline: 'You are offline. Some features require an internet connection.',
   },
   nav: {
     rooms: 'Rooms & Suites',
