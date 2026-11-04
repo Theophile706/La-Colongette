@@ -14,7 +14,7 @@ export default function Contact() {
 
   return (
     <>
-      <PageHero image="/images/Photo-Gallerie-4-1200.jpg" title={t('contact.heroTitle')} subtitle={t('contact.heroSubtitle')} />
+      <PageHero image="/images/hero/hero-building.jpg" title={t('contact.heroTitle')} subtitle={t('contact.heroSubtitle')} />
 
       {/* Booking section */}
       <section id="booking" className="container-luxe -mt-10 relative z-20">
