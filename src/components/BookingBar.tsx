@@ -67,14 +67,14 @@ export default function BookingBar({ floating = true }: BookingBarProps) {
       <div
         className={classNames(
           // Bordures pointues (rounded-none) et largeur réduite
-          'bg-white flex flex-col md:flex-row items-stretch w-full max-w-5xl rounded-none',
+          'bg-white flex flex-col lg:flex-row items-stretch w-full max-w-5xl rounded-none',
           floating
             ? 'shadow-[0_0_0_1px_rgba(0,0,0,0.03),0_25px_60px_-8px_rgba(0,0,0,0.45),0_-6px_25px_-10px_rgba(0,0,0,0.2)]'
             : 'shadow-card'
         )}
       >
         {/* Groupe Arrivée / Départ / Chambres & voyageurs, avec traits fins entre chaque bloc */}
-        <div className="flex-1 flex flex-col md:flex-row divide-y md:divide-y-0 md:divide-x divide-gray-200 relative overflow-visible">
+        <div className="flex-1 flex flex-col lg:flex-row divide-y lg:divide-y-0 lg:divide-x divide-gray-200 relative overflow-visible">
           {/* Check-in */}
           <label
             className="group flex-1 flex items-center gap-3 px-6 py-5 cursor-pointer transition-colors duration-200 hover:bg-cream/60 focus-within:bg-cream/70"
@@ -156,7 +156,7 @@ export default function BookingBar({ floating = true }: BookingBarProps) {
           <button
             type="button"
             onClick={() => submitSearch()}
-            className="w-full md:w-auto bg-gold-500 hover:bg-gold-600 active:bg-gold-700 text-white uppercase tracking-widest2 text-[10px] md:text-[11px] font-semibold px-2 md:px-3 py-3.5 rounded-none transition-all duration-200 whitespace-nowrap hover:shadow-lg"
+            className="w-full lg:w-auto bg-gold-500 hover:bg-gold-600 active:bg-gold-700 text-white uppercase tracking-widest2 text-[10px] md:text-[11px] font-semibold px-2 md:px-3 py-3.5 rounded-none transition-all duration-200 whitespace-nowrap hover:shadow-lg"
           >
             {t('common.checkAvailability')}
           </button>
