@@ -144,7 +144,7 @@ royal-palace-antsirabe/
 
 | Dossier | Utilisé pour | Fichiers actuels | Taille recommandée |
 |---|---|---|---|
-| `public/images/hero/` | Image plein écran de l'accueil | `hero-building.jpg` | 1920×1280px min, paysage |
+| `public/images/` | Image plein écran de l'accueil | `homefond.png` | 1920×1280px min, paysage |
 | `public/images/rooms/` | Chambres & Suites | `room-1.jpg` à `room-4.jpg` | 1600×1067px |
 | `public/images/restaurant/` | Page Restaurant | `restaurant-1.jpg`, `restaurant-2.jpg`, `food-1.jpg`, `breakfast-1.jpg` | 1600×1067px |
 | `public/images/pool/` | Piscine | `pool-1.jpg` à `pool-3.jpg` | 1600×1067px |

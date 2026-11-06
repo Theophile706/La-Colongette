@@ -11,7 +11,7 @@ import BookingBar from './BookingBar'
  * - Tagline in italic serif
  * - Floating white booking bar overlapping the bottom edge
  *
- * IMAGE: /public/images/hero/hero-building.jpg
+ * IMAGE: /public/images/homefond.png
  * Replace this file (same name) with your own high-resolution photo
  * (recommended: 2400x1600px, dusk/twilight lighting for best contrast).
  */
@@ -34,7 +34,7 @@ export default function Hero() {
           index.html la lance avant même que React ne démarre.
         */}
         <img
-          src="/images/hero/hero-building.jpg"
+          src="/images/homefond.png"
           alt="La Colongette Antsirabe — façade de l'hôtel"
           width={1382}
           height={745}
