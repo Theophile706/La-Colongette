@@ -7,6 +7,8 @@ import type { GalleryImage } from '@/types'
 interface ImageGalleryProps {
   images: GalleryImage[]
   columns?: 2 | 3 | 4
+  /** Centre les images horizontalement, y compris la dernière rangée incomplète. */
+  center?: boolean
 }
 
 /**
@@ -15,7 +17,7 @@ interface ImageGalleryProps {
  * Responsive image grid with a fullscreen lightbox (prev/next/close,
  * keyboard navigation). Lazy-loads images via native `loading="lazy"`.
  */
-export default function ImageGallery({ images, columns = 3 }: ImageGalleryProps) {
+export default function ImageGallery({ images, columns = 3, center = false }: ImageGalleryProps) {
   const [activeIndex, setActiveIndex] = useState<number | null>(null)
 
   const close = useCallback(() => setActiveIndex(null), [])
@@ -39,15 +41,24 @@ export default function ImageGallery({ images, columns = 3 }: ImageGalleryProps)
   const gridCols =
     columns === 2 ? 'grid-cols-2' : columns === 4 ? 'grid-cols-2 sm:grid-cols-3 lg:grid-cols-4' : 'grid-cols-2 sm:grid-cols-3'
 
+  // Largeur des vignettes en mode centré (flex) : on reproduit les colonnes de
+  // la grille en retirant la part de `gap` correspondante à chaque point de rupture.
+  const centeredItemWidth =
+    columns === 2
+      ? 'w-[calc(50%-0.375rem)] md:w-[calc(50%-0.5rem)]'
+      : columns === 3
+        ? 'w-[calc(50%-0.375rem)] sm:w-[calc(33.3333%-0.5rem)] md:w-[calc(33.3333%-0.6667rem)]'
+        : 'w-[calc(50%-0.375rem)] sm:w-[calc(33.3333%-0.5rem)] md:w-[calc(33.3333%-0.6667rem)] lg:w-[calc(25%-0.75rem)]'
+
   return (
     <>
-      <div className={`grid ${gridCols} gap-3 md:gap-4`}>
+      <div className={center ? 'flex flex-wrap justify-center gap-3 md:gap-4' : `grid ${gridCols} gap-3 md:gap-4`}>
         {images.map((img, idx) => (
           <button
             key={img.id}
             type="button"
             onClick={() => setActiveIndex(idx)}
-            className="group relative aspect-[4/3] overflow-hidden rounded-md bg-gray-100"
+            className={`group relative aspect-[4/3] overflow-hidden rounded-md bg-gray-100 ${center ? centeredItemWidth : ''}`}
           >
             <img
               src={resolveImageUrl(img.src)}
