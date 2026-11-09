@@ -11,7 +11,7 @@ body {
 }
 
 ::selection {
-  background-color: #C9A961;
+  background-color: #F1C40F;
   color: white;
 }
 
@@ -23,7 +23,7 @@ body {
   background: #F5F5F0;
 }
 ::-webkit-scrollbar-thumb {
-  background: #C9A961;
+  background: #F1C40F;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
